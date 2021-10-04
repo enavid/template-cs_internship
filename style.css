@@ -366,6 +366,7 @@ tr{
     border-radius: 2px ;
 }
 #comments-rejected{
+    background-color:#F33155;
     color: #fff;
     padding: 4px;
     border-radius: 2px ;
