@@ -296,7 +296,6 @@ tr{
     display: flex;
     flex-direction: row;
     height:560px;
-    border: 1px solid red;
     margin: 5px 10px 5px 20px;
 }
 
@@ -367,7 +366,6 @@ tr{
     border-radius: 2px ;
 }
 #comments-rejected{
-    background-color:#F33155;
     color: #fff;
     padding: 4px;
     border-radius: 2px ;
@@ -378,4 +376,43 @@ tr{
     color: #fff;
     padding: 4px;
     border-radius: 2px ;   
+}
+#chat-section{
+    background-color: #fff;
+    width:462px;
+    margin-left: 25px;
+    
+}
+#chat-section-header{
+    border-bottom: 2px solid #EEECEC;
+    padding: 25px;
+}
+
+.chat-section-items{
+    border: 1px solid black;
+
+}
+#chat-section-items{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding: 25px;
+}
+.chat-section-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:66px;
+    margin-top: 5px;
+}
+.chat-section-item-1 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.chat-section-item-2-1 p{
+    font-size:14px;
+    color: #313131;
+    margin: 5px;
 }
