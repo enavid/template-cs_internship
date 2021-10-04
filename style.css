@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Nunito Sans';
 }
 #container {
     display: flex;
@@ -14,7 +14,6 @@
 #menu{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     width: 240px;
     height: 100%;
     background:#fff;
@@ -23,7 +22,6 @@
     margin: 5px 10px 5px 20px;
 }
 .menu-header {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +38,6 @@
     margin: 5px;
 }
 .menu-item {
-    border: 1px solid green;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -55,7 +52,61 @@
 
 
 #main{
-    border:1px solid black;
-    width: 80%;
+    width: calc(100% - 240px);
     height: 100%;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    Color: #313131;
+    background: #2f323e;
+}
+
+#nav-bar-search{
+    width: 220px;
+}
+#nav-bar-profile{
+    display: flex;
+    align-items: center;
+    width: 112px;
+}
+#nav-bar-profile:hover{
+    cursor: pointer;
+}
+
+#nav-bar-profile img{
+    width:36px;
+    height:36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#nav-bar-profile p {
+    color: #ffffff;
+    font-size:14px;
+}
+#nav-bar-search{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-right: 20px;
+    width:180px;
+    height:30px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 20px;
+
+}
+
+#nav-bar-search input{ 
+    border: none;
+    width:130px;
+    background-color: #ECEBEB;
+    
+}
+#nav-bar-search input:focus{ 
+    outline: none;
 }
