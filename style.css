@@ -233,10 +233,6 @@
     margin:5px;
 }
 
-#product-sales-plot{
-
-}
-
 #table-container{
     display: flex;
     flex-direction: column;
@@ -416,4 +412,16 @@ tr{
     font-size:14px;
     color: #313131;
     margin: 5px;
+}
+/* -------------------------------------- footer-------------------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    height:61px;
+    padding:25px;
+    color: #58666E; 
+    font-size:14px;
+}
+footer a {
+    text-decoration: none;
 }
