@@ -157,11 +157,11 @@
     justify-content: center;
     background-color: #fff;
     width: 30%;
+    padding: 25px;
 }
 .menu-box-items > p {
     font-size:18px;
     font-weight: bold;
-    padding: 15px;
 }
 
 .menu-box-items span{
